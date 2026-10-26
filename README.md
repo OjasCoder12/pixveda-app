@@ -1,101 +1,108 @@
-# PixVeda — Multi-Platform Releases 📱💻
+# PixVeda Android App 📱
 
-Official release repository for **PixVeda** — the AI-powered study companion and learning assistant for students. Available on **Android, Windows, Linux, and macOS**.
-
----
-
-## 📥 Download PixVeda (v1.2.0)
-
-| Platform | Package | Size | Architecture | Direct Download |
-| :--- | :--- | :---: | :---: | :---: |
-| 🤖 **Android** | `PixVeda.apk` | ~61 MB | Universal (`arm64-v8a`, `armeabi-v7a`, `x86_64`) | [⬇️ **Download APK**](https://github.com/OjasCoder12/pixveda-app/releases/download/v1.2.0/PixVeda.apk) |
-| 🪟 **Windows** | `PixVeda-Windows-x64.zip` | ~13 MB | 64-bit Windows 10 / 11 | [⬇️ **Download for Windows**](https://github.com/OjasCoder12/pixveda-app/releases/download/v1.2.0/PixVeda-Windows-x64.zip) |
-| 🐧 **Linux** | `PixVeda-Linux-x64.tar.gz` | ~11 MB | 64-bit Linux (Ubuntu, Debian, Fedora, Arch, etc.) | [⬇️ **Download for Linux**](https://github.com/OjasCoder12/pixveda-app/releases/download/v1.2.0/PixVeda-Linux-x64.tar.gz) |
-| 🍎 **macOS** | `PixVeda-macOS.zip` | ~21 MB | Universal (Apple Silicon M-series & Intel) | [⬇️ **Download for macOS**](https://github.com/OjasCoder12/pixveda-app/releases/download/v1.2.0/PixVeda-macOS.zip) |
-
-> 📦 **All Releases & Release Notes:** [View GitHub Releases](https://github.com/OjasCoder12/pixveda-app/releases)
+Official Android release repository for **PixVeda** — the AI-powered study companion and learning assistant for students.
 
 ---
 
-## 🚀 Installation Instructions
+## 📥 Download Latest APK
 
-### 🤖 Android
-1. Download [**PixVeda.apk**](https://github.com/OjasCoder12/pixveda-app/releases/download/v1.2.0/PixVeda.apk).
-2. Tap the downloaded file in your notifications or **Downloads** folder.
-3. If prompted with *"Install unknown apps"*, tap **Settings** and toggle **"Allow from this source"**.
-4. If Google Play Protect shows a notice, tap **More details** ➔ **Install anyway**.
-5. Tap **Install**, then **Open** to launch.
+| File | Version | Size | Architectures | Link |
+| :--- | :---: | :---: | :---: | :---: |
+| **PixVeda.apk** | **v1.2.0** | ~60 MB | Universal (`arm64-v8a`, `armeabi-v7a`, `x86_64`) | [⬇️ **Download Latest APK**](https://github.com/OjasCoder12/pixveda-app/releases/latest/download/PixVeda.apk) |
 
----
-
-### 🪟 Windows (10 / 11)
-1. Download [**PixVeda-Windows-x64.zip**](https://github.com/OjasCoder12/pixveda-app/releases/download/v1.2.0/PixVeda-Windows-x64.zip).
-2. Right-click the `.zip` file and select **Extract All...** (extract to a folder of your choice).
-3. Open the extracted folder and double-click `pixveda_app.exe`.
-4. *If Windows Defender SmartScreen shows a warning:*
-   - Click **More info**.
-   - Click **Run anyway**.
-5. *(Optional)* Right-click `pixveda_app.exe` ➔ **Pin to Start** or **Create shortcut** on Desktop.
-
----
-
-### 🐧 Linux (Ubuntu, Debian, Fedora, Arch, RHEL, etc.)
-1. Download [**PixVeda-Linux-x64.tar.gz**](https://github.com/OjasCoder12/pixveda-app/releases/download/v1.2.0/PixVeda-Linux-x64.tar.gz).
-2. Extract the archive via terminal or archive manager:
-   ```bash
-   tar -xzf PixVeda-Linux-x64.tar.gz -C ~/PixVeda
-   cd ~/PixVeda
-   ./pixveda_app
-   ```
-3. *Prerequisites (if not already installed):*
-   - Debian/Ubuntu: `sudo apt install libgtk-3-0 libsecret-1-0`
-   - Fedora/RHEL: `sudo dnf install gtk3 libsecret`
-   - Arch Linux: `sudo pacman -S gtk3 libsecret`
-
----
-
-### 🍎 macOS (Apple Silicon & Intel)
-1. Download [**PixVeda-macOS.zip**](https://github.com/OjasCoder12/pixveda-app/releases/download/v1.2.0/PixVeda-macOS.zip).
-2. Double-click the `.zip` file to extract `PixVeda.app`.
-3. Drag `PixVeda.app` into your **Applications** folder.
-4. *If macOS Gatekeeper shows a warning about an unverified developer on first launch:*
-   - Right-click (or Control-click) `PixVeda.app` in Finder and select **Open**.
-   - In the dialog box, click **Open**.
-   - Or go to **System Settings** ➔ **Privacy & Security** ➔ scroll down to Security and click **Open Anyway**.
+> 🔗 **Alternative direct download from repository:** [Download via Raw](https://github.com/OjasCoder12/pixveda-app/raw/main/PixVeda.apk)  
+> 📦 **All Releases & Changelog:** [View Releases](https://github.com/OjasCoder12/pixveda-app/releases)
 
 ---
 
 ## 📋 System Requirements
 
-| Platform | Minimum OS | Architecture | Notes |
-| :--- | :--- | :--- | :--- |
-| **Android** | Android 8.0 (Oreo / API 26)+ | ARM, ARM64, x86_64 | Universal APK |
-| **Windows** | Windows 10 (1809+) or Windows 11 | x64 | 64-bit |
-| **Linux** | Modern 64-bit Linux distribution | x64 | Requires GTK 3 & libsecret |
-| **macOS** | macOS 11.0 (Big Sur) or newer | Universal | Apple Silicon & Intel |
+- **Operating System:** Android 8.0 (Oreo / API 26) or higher
+- **Storage Space:** Minimum 150 MB free space
+- **Architecture:** Universal (Supports 32-bit & 64-bit ARM, as well as x86_64 devices)
+- **Internet:** Active connection required for AI tutoring and cloud sync
 
 ---
 
-## 🔒 Security & Verification (SHA-256 Checksums)
+## 🚀 How to Install PixVeda on Android
 
-Verify the integrity of your downloaded files with SHA-256:
+Installing an APK directly (sideloading) takes less than a minute. Follow these steps:
 
-```text
-2ea955db3db286acc63b72adac43bac09e6aa367983789a45bea54e754d41761  PixVeda.apk
-7ce1d71a24a6fd9c03074524a74378e34ef2327f44e91c3fbd6f8f5ed7ffd52d  PixVeda-Windows-x64.zip
-62b2f4f1eec6c664507bdda4850912186919d79b96e6334e573b4a0a34ca9dc0  PixVeda-Linux-x64.tar.gz
-0de221f1547e52458b06abd6d28591285fa2986384a8bcb8184d01f425a1dc25  PixVeda-macOS.zip
-```
+### Step 1: Download the APK
+1. Tap the [**Download Latest APK**](https://github.com/OjasCoder12/pixveda-app/releases/latest/download/PixVeda.apk) button above on your Android device (or open Chrome/your browser and download `PixVeda.apk`).
+2. If your browser asks *"File might be harmful. Do you want to download PixVeda.apk anyway?"*, tap **Download anyway**.
+
+---
+
+### Step 2: Enable "Install Unknown Apps"
+Android requires you to grant permission before installing applications outside the Google Play Store:
+
+- **Android 8.0 and newer (Samsung, Pixel, Motorola, OnePlus, Xiaomi, etc.):**
+  1. Once downloaded, tap the download notification or open your **Files** / **Downloads** folder.
+  2. Tap **PixVeda.apk**.
+  3. A prompt will appear: *"For your security, your phone is not allowed to install unknown apps from this source"*.
+  4. Tap **Settings**.
+  5. Toggle on **"Allow from this source"** (or *Allow app installs*).
+  6. Tap the **Back** arrow to return to the installer.
+
+---
+
+### Step 3: Complete Installation
+1. Tap **Install**.
+2. Wait for the installation progress bar to complete.
+3. Tap **Open** to launch PixVeda!
+
+---
+
+### Step 4: Google Play Protect (If prompted)
+Because this app is installed directly and not yet on Google Play Store, Google Play Protect may display a prompt:
+
+1. Tap **More details** (or down arrow).
+2. Tap **Install anyway**.
+
+---
+
+## 🛠️ Troubleshooting & FAQs
+
+### ❓ "App not installed" error
+- **Cause 1: An older or conflicting version is already installed.**  
+  *Solution:* Uninstall any existing/previous version of PixVeda first, then install the new APK.
+- **Cause 2: Low storage space.**  
+  *Solution:* Free up at least 200 MB on your device.
+- **Cause 3: Incompatible Android version.**  
+  *Solution:* Check that your device runs Android 8.0 or later.
+
+### ❓ "Can't open file" after download
+- *Solution:* Do not tap the notification directly if your browser fails to launch the package installer. Instead, open your phone's default **Files** app (e.g., *Files by Google*, *My Files*), go to the **Downloads** folder, and tap `PixVeda.apk`.
+
+### ❓ How do I update to future versions?
+- Simply check the [Releases](https://github.com/OjasCoder12/pixveda-app/releases) page for new updates, download the latest `.apk`, and install it. Your data and login will be preserved.
+
+---
+
+## 🔒 Security & Verification
+
+Verify the integrity of your downloaded APK using the checksums below:
+
+- **Package Name:** `com.pixveda.app`
+- **Version:** `1.2.0` (Build `4`)
+- **SHA-256 Checksum:**
+  ```text
+  2ea955db3db286acc63b72adac43bac09e6aa367983789a45bea54e754d41761
+  ```
+- **MD5 Checksum:**
+  ```text
+  6a591b254733300e2efdcf639693f5b2
+  ```
 
 ---
 
 ## ✨ About PixVeda
 
 PixVeda is an all-in-one AI study companion designed specifically for school and college students:
-- 🤖 **AI Chat Tutor:** Step-by-step concept explanations tailored to student grade and syllabus.
+- 🤖 **AI Chat Tutor:** Step-by-step concept explanations tailored to your grade and syllabus.
 - 🗂️ **Interactive Flashcards:** Spaced-repetition study decks to master topics quickly.
 - 🧠 **Mind Maps:** Visual diagrams and concept hierarchies generated on the fly.
 - ⏱️ **Focus Sessions:** Dedicated study timer with integrated assistance.
 - 📝 **Smart Notes & Summarizer:** Convert long documents and textbook chapters into key takeaways.
 - 🎯 **Practice Quizzes:** Instant MCQs and test questions with real-time feedback.
-- 📅 **Day Planner:** Timetable and guided weekly study plans.
