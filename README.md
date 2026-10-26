@@ -88,11 +88,7 @@ Verify the integrity of your downloaded APK using the checksums below:
 - **Version:** `1.2.0` (Build `4`)
 - **SHA-256 Checksum:**
   ```text
-  f77af3a18287b7b86dc84c059ce2e07c785007cd39017817346220c5cc01f01e
-  ```
-- **MD5 Checksum:**
-  ```text
-  6a591b254733300e2efdcf639693f5b2
+  9848cd52663d41661b272e4f8b8d7f0fb8bf34f475834a4a8ededad304cbf369
   ```
 
 ---
